@@ -1,0 +1,14 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="420" fill="#F7F3EA"/>
+  <rect x="0" y="0" width="1200" height="420" fill="url(#grid)"/>
+  <rect x="144" y="138" width="612" height="90" transform="rotate(-3 144 138)" fill="#C7FF3D"/>
+  <text x="124" y="240" fill="#121212" font-family="Anton, Arial, sans-serif" font-size="146" letter-spacing="14">DH4NSHOO</text>
+  <rect x="418" y="108" width="70" height="70" rx="6" fill="#121212"/>
+  <text x="434" y="164" fill="#C7FF3D" font-family="Anton, Arial, sans-serif" font-size="58">4</text>
+  <text x="126" y="310" fill="#555555" font-family="Space Grotesk, Arial, sans-serif" font-size="28" letter-spacing="7">HYPE TAG / STREET POSTER / LOUD BUT CLEAN</text>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#D6CFBF" stroke-opacity="0.6"/>
+    </pattern>
+  </defs>
+</svg>

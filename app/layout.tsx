@@ -6,16 +6,18 @@ import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
 import { AppProviders } from "@/components/providers/app-providers";
 
+const brandName = designConfig.brand.name;
+
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL ?? "http://localhost:3000"),
   title: {
-    default: "Threadform",
-    template: "%s | Threadform"
+    default: brandName,
+    template: `%s | ${brandName}`
   },
-  description: "Custom shirt shopping with premium fits, expressive graphics, and fast checkout.",
+  description: `${brandName} brings oversized fits, sharper graphics, and youth-first streetwear energy into one storefront.`,
   openGraph: {
-    title: "Threadform",
-    description: "Premium shirts for every rotation.",
+    title: brandName,
+    description: `${brandName} streetwear for every rotation.`,
     type: "website"
   }
 };

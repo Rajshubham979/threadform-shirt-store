@@ -1,0 +1,14 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="420" fill="#F7F3EA"/>
+  <rect x="0" y="0" width="1200" height="420" fill="url(#grid)"/>
+  <rect x="168" y="140" width="505" height="86" transform="rotate(-4 168 140)" fill="#C7FF3D"/>
+  <text x="148" y="238" fill="#111111" font-family="Anton, Arial, sans-serif" font-size="150" letter-spacing="16">DHANSOO</text>
+  <rect x="792" y="246" width="210" height="14" transform="rotate(-8 792 246)" fill="#111111"/>
+  <circle cx="997" cy="112" r="14" fill="#111111"/>
+  <text x="151" y="305" fill="#555555" font-family="Space Grotesk, Arial, sans-serif" font-size="28" letter-spacing="7">SPRAY STRIKE / LOUD STREETWEAR WORDMARK</text>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#D6CFBF" stroke-opacity="0.6"/>
+    </pattern>
+  </defs>
+</svg>

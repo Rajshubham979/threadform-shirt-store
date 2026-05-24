@@ -2,22 +2,27 @@ export type ButtonStyle = "solid" | "outline" | "ghost";
 export type CardStyle = "shadow" | "bordered" | "flat";
 export type NavStyle = "sticky" | "fixed" | "static";
 export type HeroLayout = "centered" | "split" | "fullscreen";
+export type LogoStyle = "digital";
 
 export const designConfig = {
+  brand: {
+    name: "DH4NSHOO",
+    logoStyle: "digital" as LogoStyle
+  },
   colors: {
     primaryColor: "#121212",
-    secondaryColor: "#8f8f8f",
-    backgroundColor: "#f2efe8",
-    surfaceColor: "#fbf9f4",
+    secondaryColor: "#c7ff3d",
+    backgroundColor: "#f7f3ea",
+    surfaceColor: "#fffdf8",
     textPrimary: "#111111",
-    textSecondary: "#5f5f5f",
-    borderColor: "#d8d2c7",
+    textSecondary: "#555555",
+    borderColor: "#d6cfbf",
     errorColor: "#dc2626",
     successColor: "#15803d"
   },
   typography: {
     fontFamily: "Space Grotesk",
-    headingFont: "Oswald",
+    headingFont: "Anton",
     baseFontSize: "16px",
     headingWeight: "700",
     bodyWeight: "400"

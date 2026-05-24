@@ -6,6 +6,7 @@ import { useTheme } from "next-themes";
 import { designConfig } from "@/config/design.config";
 import { useCartStore } from "@/store/cartStore";
 import { Button } from "@/components/ui/button";
+import { Logo } from "@/components/brand/logo";
 import { cn } from "@/lib/utils";
 
 const navClassByStyle = {
@@ -23,8 +24,8 @@ export function Navbar() {
   return (
     <header className={cn(navClassByStyle[designConfig.components.navStyle], "border-b bg-[color:color-mix(in_srgb,var(--color-surface)_86%,transparent)] backdrop-blur-md")}>
       <div className="site-shell flex h-nav items-center justify-between gap-4">
-        <Link href="/" className="font-heading text-4xl tracking-[0.12em]">
-          THREADFORM
+        <Link href="/" className="inline-flex items-center text-[var(--color-primary)]">
+          <Logo textClassName="text-[1.9rem] md:text-[2.15rem]" />
         </Link>
         <nav className="hidden items-center gap-6 text-sm font-semibold md:flex">
           <Link href="/shop">Shop</Link>

@@ -1,4 +1,4 @@
-# Threadform
+# DH4NSHOO
 
 Custom shirt-selling e-commerce website built with Next.js 14 App Router, Tailwind CSS v3, Prisma, Supabase PostgreSQL, NextAuth v5, Cloudinary, Stripe Checkout, Zustand, and Zod.
 
@@ -25,3 +25,4 @@ Custom shirt-selling e-commerce website built with Next.js 14 App Router, Tailwi
 - Cloudinary stores only transformed image URLs in the database.
 - Stripe webhook writes paid orders after checkout completion.
 - Admin access depends on `User.role === ADMIN`.
+- The live website branding is configured in `config/design.config.ts` and currently uses the approved `DH4NSHOO` digital logo.

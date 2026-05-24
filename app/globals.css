@@ -83,12 +83,57 @@ body::before {
   opacity: 0.18;
 }
 
+body::after {
+  content: "";
+  position: fixed;
+  inset: auto -12vw -10vh auto;
+  width: 42vw;
+  height: 42vw;
+  border-radius: 9999px;
+  background: radial-gradient(circle, color-mix(in srgb, var(--color-secondary) 30%, transparent), transparent 65%);
+  pointer-events: none;
+  opacity: 0.65;
+  filter: blur(30px);
+}
+
 .page-transition {
   animation: page-enter 0.45s ease;
 }
 
 .marquee-track {
+  width: max-content;
   animation: marquee-slide 28s linear infinite;
+  will-change: transform;
+}
+
+.marquee-sequence {
+  display: flex;
+  flex-shrink: 0;
+}
+
+.home-noise {
+  background-image:
+    radial-gradient(circle at 1px 1px, color-mix(in srgb, var(--color-primary) 12%, transparent) 1px, transparent 0);
+  background-size: 14px 14px;
+}
+
+.sticker {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1.5px solid var(--color-primary);
+  background: var(--color-secondary);
+  color: var(--color-primary);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  padding: 0.55rem 0.8rem;
+  text-transform: uppercase;
+}
+
+.footer-outline {
+  color: transparent;
+  -webkit-text-stroke: 1.5px color-mix(in srgb, white 72%, transparent);
 }
 
 @keyframes page-enter {
